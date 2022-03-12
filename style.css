@@ -15,4 +15,5 @@ body {
 #home .carousel-item a.btn-book-now:hover {
   background-color: blue;
   color: white;
+  transition:  all .5s ease-in-out .1s;
 }
