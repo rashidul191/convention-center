@@ -1,7 +1,25 @@
+/* ---------------------------
+  Common  Style Start 
+  ---------------------------*/
 body {
   font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+p {
+  color: #848199;
+}
+/* ---------------------------
+  Common  Style Start 
+  ---------------------------*/
+
+/* ---------------------------------
+  Header Section Style Start 
+  ---------------------------------*/
 #home .carousel-item a.btn-book-now {
   text-decoration: none;
   background-color: white;
@@ -11,9 +29,49 @@ body {
   font-weight: bold;
   font-size: 18px;
 }
-
 #home .carousel-item a.btn-book-now:hover {
   background-color: blue;
   color: white;
-  transition:  all .5s ease-in-out .1s;
+  transition: all 0.5s ease-in-out 0.1s;
 }
+
+/* ---------------------------------
+  Header Section Style End 
+  ---------------------------------*/
+
+/* ---------------------------------
+  Package Section Style Start 
+  ---------------------------------*/
+#package .hot-package {
+  border-radius: 15px;
+  background-color: #3f87f5;
+  position: relative;
+  box-shadow: 0px 50px 50px 0px gray;
+  transform: scale(1.1);
+}
+
+#package .hot {
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  padding: 5px 20px 0px 20px;
+  border-radius: 20px;
+}
+#package .hot-package p {
+  color: white;
+}
+
+#package .btn-choose-plan {
+  border: none;
+  background-color: #f5f0f0;
+  font-weight: bold;
+  color: #3f87f5;
+  border-radius: 24px;
+  text-align: center;
+  padding: 15px 70px;
+}
+/* ---------------------------------
+  Package Section Style End 
+  ---------------------------------*/
